@@ -1,0 +1,54 @@
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-content .project-card {
+    max-width: 250px;
+    margin: 0 1rem;
+    
+}
+
+.portfolio-content .project-card img {
+    width: 100%;
+}
+
+.portfolio-content .project-card button {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4c90ff;
+    border-style: none;
+}
+
+.portfolio-content .project-card button:hover {
+    color: #fff;
+    background-color: #f45b69;
+}
+
+.portfolio-content .project-card .project-info{
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.portfolio-content .project-card .project-info h2{
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.portfolio-content .project-card .project-info h3{
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.portfolio-content .project-card .project-info p{
+    margin: 10px 0;
+    font-weight: 600;
+}
+
