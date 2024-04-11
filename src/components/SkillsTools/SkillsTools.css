@@ -1,0 +1,47 @@
+/*********************************/
+/********* SKILLS & TOOLS ********/
+/*********************************/
+#skills-tools {
+  margin: auto;
+  max-width: 1000px;
+}
+
+#skills-tools .skills-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#skills-tools .skills-content>div {
+  max-width: 250px;
+  /*margin: 0 5rem;*/
+}
+
+#skills-tools .skills-content h5 {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+#skills-tools .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+  margin: 2.5px;
+}
+
+@media (max-width: 800px) {
+  #skills-tools .skills-content>div {
+    max-width: 200px;
+  }
+}

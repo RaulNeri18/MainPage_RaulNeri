@@ -1,0 +1,50 @@
+/*********************************/
+/************* FOOTER ************/
+/*********************************/
+
+footer {
+  padding: 40px 0 50px 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(39, 38, 38, 1);
+}
+
+.footer-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
+}
+
+.footer-container p {
+  font-size: 0.8em;
+}
+
+.social-network-container {
+
+}
+
+.social-networks {  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  list-style: none;
+  padding: 0;
+}
+
+.social-networks a {
+  color: #fff;
+  fill: #fff;
+}
+
+.social-networks svg {
+  width:49px;
+  margin: 0.5rem 1rem;
+}
+
+.section img {
+  background-color: red;
+  border: 1px solid black;
+}

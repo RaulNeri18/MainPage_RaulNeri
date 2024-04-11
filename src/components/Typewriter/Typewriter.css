@@ -2,3 +2,8 @@
     padding: 2rem;
     text-transform: uppercase;
 }
+
+.cursor {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }

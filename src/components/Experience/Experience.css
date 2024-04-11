@@ -1,0 +1,85 @@
+/*********************************/
+/*********** EXPERIENCE **********/
+/*********************************/
+
+#experience .experience-line-container {
+  margin: 0 3rem;
+}
+
+#experience .experience-line-container .job-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.quadrant {
+  max-width: 350px;
+  min-width: 350px;
+  padding: 30px 5px;
+  position: relative;
+}
+
+.job-role {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.job-role::before {
+  width: 14px;
+  height: 14px;
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 52px;
+  background-color: rgba(39, 38, 38, 1);
+  border-radius: 50%;
+  z-index: 9;
+  /*-webkit-transition: all .5s ease;*/
+  transition: all .5s ease;
+}
+
+.job-dates {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+.job-company {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.job-description {
+  margin: 0 1rem;
+}
+
+@media (max-width: 770px) {
+  .quadrant {
+    max-width: 300px;
+    min-width: 300px;
+  }
+
+  .job-role {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem;
+  }
+
+  .job-dates {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 1rem;
+  }
+  
+  .job-company {
+    font-size: 0.9rem;
+    margin: 1rem;
+  }
+  
+  .job-description {
+    font-size: 0.9rem;
+    max-width: 220px;
+  }
+}

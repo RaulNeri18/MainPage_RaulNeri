@@ -1,3 +1,4 @@
+import './SkillsTools.css'
 
 const SkillsTools = () => {
 

@@ -1,7 +1,8 @@
 import Typewriter from "../Typewriter/Typewriter"
+import './OpenSection.css'
 
 const OpenSection = () => {
-    const myLines = ["UX Engineer.", "UI Designer.", "Frontend Developer."];
+    const myLines = ["Fullstack Developer."];
     
     return (
         <div id="opening_section">

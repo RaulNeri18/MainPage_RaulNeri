@@ -1,0 +1,60 @@
+/*********************************/
+/********** OPEN SECTION *********/
+/*********************************/
+
+#opening_section {
+    height: 100%;
+    position: relative;
+    background-image: url("https://www.evelinekooijman.com/img/hero_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 50px solid var(--background-color1);
+  }
+  
+  #opening_section .row {
+    height: 50%;
+    width: 100%;
+  }
+  
+  #opening_section .row .quarter {
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: #FFF;
+  }
+  
+  #opening_section .row .highlight {
+    background-color: transparent;
+  }
+  
+  /*****************************/
+  #opening_section .personal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 350px;
+    width: 330px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3rem;
+    font-size: 1.8rem;
+  
+    background-color: var(--background-color1);
+    /*-webkit-transform: translateX(-50%) translateY(-50%);*/
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  #opening_section .personal-card .brand {
+    /*background-color: #4c90ff;*/
+    margin-bottom: 0.5em;
+  }
+  
+  #opening_section .personal-card hr {
+    width: 100px;
+    height: 3px;
+    background-color: #4c90ff;
+  }

@@ -22,9 +22,13 @@ function Typewriter({ myLines }) {
                 }, 700);
             }
         } else {
+            setTypingCompleted(true);
+            setTimeout(() => {
+                setTypingCompleted(false);
+            }, 500);
+            
             setTimeout(() => {
                 setCurrentLineIndex(0);
-                setTypingCompleted(true);
             }, 600);
         }
     }, [currentLineIndex, currentLetterIndex, myLines]);

@@ -1,4 +1,4 @@
-
+import './Experience.css'
 const Experience = () => {
 
     return (

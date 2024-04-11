@@ -1,0 +1,47 @@
+/*********************************/
+/************** ABOUT ************/
+/*********************************/
+
+#about .img-container {
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#about img {
+  width: 100%;
+}
+
+#about div {
+  margin: 0 5rem;
+}
+
+#about h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+#about p {
+  margin: auto;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  #about div {
+    margin: 0 3rem;
+  }
+
+
+  #about h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  #about p {
+    font-size: 12px;
+  }
+}
+  
