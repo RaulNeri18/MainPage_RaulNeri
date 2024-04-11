@@ -58,3 +58,9 @@
     height: 3px;
     background-color: #4c90ff;
   }
+
+  #opening_section .personal-card .typewriter-span {
+    margin: 1rem 0;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+  }

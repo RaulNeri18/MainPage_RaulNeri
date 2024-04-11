@@ -1,5 +1,67 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*max-width: 1000px;*/
+    
+    margin: 0 4rem;
+    text-align: left;
+}
 
-.contact-content {
+
+.contact-container .contact-fields-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container .contact-fields-content>div{
+    /*min-width: 50%;*/
+    width: 450px;
+    padding: 0 1rem;
+}
+
+.contact-container .contact-fields-content .contact-fields-user div {
+    margin-top: 0.5rem;
+}
+
+.contact-container .contact-fields-content input {
+    display: block;
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-family: inherit;
+}
+
+.contact-container .contact-fields-content label{
+    font-weight: 700;
+}
+
+.contact-container .contact-fields-content textarea{
+    margin-top: 10px;
+    height: calc(100% - 35px);
+    max-width: 500px;
+    padding: 5px 0 0 10px;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: inherit;
+}
+
+
+.contact-container .contact-fields-content input, 
+.contact-container .contact-fields-content textarea {
+    width: 100%;
+}
+
+
+
+
+
+/*
+.contact-container {
     margin: 0 4rem;
     text-align: left;
 }
@@ -8,7 +70,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /*margin-bottom: 1rem;*/
+    //margin-bottom: 1rem;
 }
 
 .contact-fields-content>div {
@@ -87,7 +149,7 @@
 }
 
 @media (max-width: 920px) {
-    .contact-content {
+    .contact-container {
         margin: 0 2rem;
     }
 }
@@ -103,7 +165,8 @@
 }
 
 @media (max-width: 501px) {
-    .contact-content {
+    .contact-container {
         margin: 0rem;
     }
 }
+*/

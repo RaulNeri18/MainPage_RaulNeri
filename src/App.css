@@ -31,3 +31,8 @@ section h1 {
 .text-align-right {
   text-align: right;
 }
+
+/**************************************/
+.floating-whatsapp-container {
+  height: auto !important;
+}

@@ -2,7 +2,8 @@
 /************* FOOTER ************/
 /*********************************/
 
-footer {
+.footer {
+  margin-top: 3rem;
   padding: 40px 0 50px 0;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -21,11 +22,11 @@ footer {
   font-size: 0.8em;
 }
 
-.social-network-container {
+.footer-container .social-network-container {
 
 }
 
-.social-networks {  
+.footer-container .social-networks {  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -34,17 +35,12 @@ footer {
   padding: 0;
 }
 
-.social-networks a {
+.footer-container .social-networks a {
   color: #fff;
   fill: #fff;
 }
 
-.social-networks svg {
+.footer-container .social-networks svg {
   width:49px;
   margin: 0.5rem 1rem;
-}
-
-.section img {
-  background-color: red;
-  border: 1px solid black;
 }

@@ -42,6 +42,10 @@
   padding: 0 10px;
 }
 
+.navbar .nav-menu ul a {
+  color: #000;
+}
+
 .navbar .nav-menu ul a.db-line {
   text-decoration: none;
 }

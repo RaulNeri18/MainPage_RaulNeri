@@ -19,7 +19,7 @@ const Navbar = () => {
                     <li><a className="db-line" href="#about">ABOUT</a></li>                    
                     <li><a className="db-line" href="#experience">EXPERIENCE</a></li>
                     <li><a className="db-line" href="#portfolio">PORTFOLIO</a></li>
-                    <li><a className="db-line" href="#contact">CONTACT</a></li>
+                    {/*<li><a className="db-line" href="#contact">CONTACT</a></li>*/}
                     </ul>
                 </div>
 
